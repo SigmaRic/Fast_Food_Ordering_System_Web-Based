@@ -1,7 +1,5 @@
-# EasyOrder Website
-**Project Title: EasyOrder Website (Online Fast Food Ordering System)**
-
-**Course: TWP4213 Internet & Web Publishing**
+# Fast Food Ordering System
+**Project Title: Fast Food Ordering System**
 
 **Tech Stack: PHP, MySQL, HTML, CSS, JavaScript**
 
@@ -9,7 +7,7 @@
 
 ## How to Run
 1. Copy the project folder into `htdocs`, for example `C:\xampp\htdocs\easyorder`. Keep the `image` folder inside it.
-2. Open the **XAMPP Control Panel** and **Start** both **Apache** and **MySQL**.
+2. Open the **XAMPP Control Panel** and click **Start** on both **Apache** and **MySQL**. When both boxes turn green, the system is ready to use.
 3. Click **Admin** next to MySQL to open phpMyAdmin, create a database named **easyorder**, and import `easyorder.sql`.
 4. Check `dataconnection.php` (default: host `localhost`, user `root`, empty password).
 5. Open `http://localhost/easyorder/index.html` in a browser.

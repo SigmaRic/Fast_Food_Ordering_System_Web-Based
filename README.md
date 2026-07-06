@@ -6,25 +6,49 @@
 **Environment: XAMPP (Apache and MySQL / MariaDB) with phpMyAdmin**
 
 ## How to Run
-1. Copy the whole project folder into the `htdocs` folder of XAMPP, for example `C:\xampp\htdocs\easyorder`. Keep the `image` folder inside it.
-2. Open the **XAMPP Control Panel** and click **Start** on both **Apache** and **MySQL** (both turn green when running).
-3. Click **Admin** next to MySQL to open phpMyAdmin, create a database named **easyorder**, then use the **Import** tab to import `easyorder.sql`.
-4. Check that `dataconnection.php` matches your server. By default it uses host `localhost`, user `root`, and an empty password.
-5. Open `http://localhost/easyorder/index.html` in a browser to run the website.
+1. Copy the project folder into `htdocs`, for example `C:\xampp\htdocs\easyorder`. Keep the `image` folder inside it.
+2. Open the **XAMPP Control Panel** and **Start** both **Apache** and **MySQL**.
+3. Click **Admin** next to MySQL to open phpMyAdmin, create a database named **easyorder**, and import `easyorder.sql`.
+4. Check `dataconnection.php` (default: host `localhost`, user `root`, empty password).
+5. Open `http://localhost/easyorder/index.html` in a browser.
 
 ## Login Accounts
-**Admin** (Admin Login page, uses Staff ID and password)
+**Admin** (Staff ID and password)
 Admin ID: S001
 Password: admin123
 
-**Customer** (Member Login page, uses email and password)
+**Customer** (email and password)
 Email: meiling@email.com
 Password: member123
 
 ## Database
-A MySQL database named **easyorder** with 8 tables: `category`, `product`, `staff`, `member`, `orders`, `order_items`, `review`, and `contact_msg`. All pages connect through the shared `dataconnection.php` file, and styling uses two stylesheets, `style.css` for customer pages and `admin_style.css` for admin pages.
+MySQL database **easyorder** with 8 tables:
+1. `category`
+2. `product`
+3. `staff`
+4. `member`
+5. `orders`
+6. `order_items`
+7. `review`
+8. `contact_msg`
 
-## Features
-**Customer:** register and login, browse the menu by category, view product details, add to cart, checkout and place orders with automatic stock deduction, view a personal dashboard with order history, leave comments and ratings, and send contact messages.
+## Customer Features
+1. Register and login
+2. Browse menu by category
+3. View product details
+4. Add to cart
+5. Checkout with automatic stock deduction
+6. Dashboard with order history
+7. Comments and rating
+8. Contact Us
+9. Logout
 
-**Admin:** login to a dashboard with live statistics, full CRUD management of staff, members, categories and products, update or delete customer orders, and generate a sales report with sales by category and best-selling products.
+## Admin Features
+1. Login and dashboard with live statistics
+2. Manage staff (add, edit, delete, view)
+3. Manage members (add, edit, delete, view)
+4. Manage categories (add, edit, delete, view)
+5. Manage products (add, edit, delete, view)
+6. Manage orders (update status, delete)
+7. Sales report (by category, best-selling products)
+8. Logout

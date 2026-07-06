@@ -1,5 +1,7 @@
 # EasyOrder Website
-**Online Fast Food Ordering System | TWP4213 Internet & Web Publishing**
+**Project Title: EasyOrder Website (Online Fast Food Ordering System)**
+
+**Course: TWP4213 Internet & Web Publishing**
 
 **Tech Stack: PHP, MySQL, HTML, CSS, JavaScript**
 
@@ -13,12 +15,12 @@
 5. Open `http://localhost/easyorder/index.html` in a browser.
 
 ## Login Accounts
-**Admin** (Staff ID and password)
-Admin ID: S001
+**Admin Login**<br>
+Admin ID: S001<br>
 Password: admin123
 
-**Customer** (email and password)
-Email: meiling@email.com
+**Customer Login**<br>
+Email: meiling@email.com<br>
 Password: member123
 
 ## Database
